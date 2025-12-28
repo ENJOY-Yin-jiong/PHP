@@ -28,7 +28,7 @@ set WANDB_MODE=online/offline
 Download 630k-audioset-fusion-best.pt and place it under pretrain/models/.
 
 ## 📦 Data Preparation
-We follow the dataset setup from DG-SCT (https://github.com/haoyi-duan/DG-SCT). Datasets are available via our Baidu Netdisk or Google Drive mirrors; download them and update the roots in `data.py` to your local paths. (The dataset will be upload in two days.)
+We follow the dataset setup from DG-SCT (https://github.com/haoyi-duan/DG-SCT). Datasets are available via our Baidu Netdisk or Google Drive; download them and update the roots in `data.py` to your local paths. (The dataset will be upload in two days.)
 
 ## 🚀 Quickstart (Train)
 Task-incremental example (AVE -> LLP -> AVQA):
